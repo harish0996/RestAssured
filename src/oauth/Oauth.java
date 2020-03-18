@@ -14,7 +14,7 @@ public class Oauth {
 	@Test
 	public void getAccessToken()
 	{
-		String url="https://rahulshettyacademy.com/getCourse.php?state=verifyjdss&code=4%2FxgG52GRbToSmPmMVUlfoN9v26l9I0ElK9-UxGl2WoO_sN_xr3Skvp-Ml77ems3am9ZV2-tF-9gCorJFNPGRMaZQ&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&prompt=consent#";
+		String url="https://rahulshettyacademy.com/getCourse.php?state=verifyjdss&code=4%2FxwGCyKUdbG74iOdKdjTQS1lnCG206bKoYNbRgAzdS-ETEIFb9eCtPkV8tZ95krzrUxAX_3j2MeHgAi0cY_e4x-U&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=1&prompt=none#";
 		
 		String partialcode = url.split("code=")[1];
 		String code = partialcode.split("&scope")[0];
