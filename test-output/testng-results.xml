@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2592" started-at="2020-03-17T10:46:53Z" finished-at="2020-03-17T10:46:56Z">
+  <suite name="Default suite" duration-ms="2763" started-at="2020-03-18T07:47:56Z" finished-at="2020-03-18T07:47:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2592" started-at="2020-03-17T10:46:53Z" finished-at="2020-03-17T10:46:56Z">
+    <test name="Default test" duration-ms="2763" started-at="2020-03-18T07:47:56Z" finished-at="2020-03-18T07:47:59Z">
       <class name="oauth.Oauth">
-        <test-method status="PASS" signature="getAccessToken()[pri:0, instance:oauth.Oauth@1d057a39]" name="getAccessToken" duration-ms="2562" started-at="2020-03-17T10:46:53Z" finished-at="2020-03-17T10:46:56Z">
+        <test-method status="PASS" signature="getAccessToken()[pri:0, instance:oauth.Oauth@28d25987]" name="getAccessToken" duration-ms="2742" started-at="2020-03-18T07:47:56Z" finished-at="2020-03-18T07:47:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAccessToken -->
